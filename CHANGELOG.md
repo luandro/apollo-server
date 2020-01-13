@@ -7,6 +7,7 @@ The version headers in this history reflect the versions of Apollo Server itself
 > The changes noted within this `vNEXT` section have not been released yet.  New PRs and commits which introduce changes should include an entry in this `vNEXT` section as part of their development.  When a release is being prepared, a new header will be (manually) created below and the the appropriate changes within that release will be moved into the new section.
 
 - `apollo-server-core`: Update apollo-tooling dependencies, resolve TS build error (missing types for node-fetch) [#3662](https://github.com/apollographql/apollo-server/pull/3662)
+- `apollo-server-lambda`, `apollo-server-azure-functions`: Guard against the possibility that `headers` are undefined when processing a request. [PR #TODO](https://github.com/apollographql/apollo-server/pull/TODO)
 
 ### v2.9.15
 
